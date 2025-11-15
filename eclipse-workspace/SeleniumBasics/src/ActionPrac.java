@@ -13,6 +13,7 @@ public class ActionPrac {
 		driver.get("https://www.amazon.in/");
 		Actions a = new Actions(driver);
 		a.moveToElement(driver.findElement(By.id("nav-link-accountList"))).click().keyDown(Keys.SHIFT).sendKeys("Vinoth").build().perform();
+		I made a change
 	
 		
 		
